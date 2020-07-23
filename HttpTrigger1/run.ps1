@@ -10,7 +10,7 @@ Write-Host "PowerShell HTTP trigger function processed a request."
 #Get-Module -ListAvailable | Select-Object Name, Version | Sort-Object -Property Name
 
 Write-Host "Import module Microsoft.Graph.Intune"
-Import-Module Microsoft.Graph.Intune #-UseWindowsPowerShell
+Import-Module Microsoft.Graph.Intune
 
 Write-Host "Import module AzureAD"
 Import-Module AzureAD -UseWindowsPowerShell
