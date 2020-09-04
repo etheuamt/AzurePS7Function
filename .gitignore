@@ -1,0 +1,10 @@
+
+# Azure Functions artifacts
+bin
+obj
+appsettings.json
+local.settings.json
+modules/*.nupkg
+*.nuplg
+*.zip
+modules/*.zip
